@@ -313,14 +313,17 @@ nav ul li a:hover{
 /* Social */
 
 .social-container {
-    width: 50%;
-    display: flex;
-    margin: auto;
+    width: 100%;
+    display: inline-block;
+    place-content: center;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.social-image img {
-    width: 50%;
+.social-container img {
+    width: 100px;
+    margin: 20px;
 }
 
 .footer {
@@ -428,14 +431,11 @@ nav ul li a:hover{
         font-size: 35px;
     }
 
-    .social-container {
-        width: 80%;
-        display: flex;
-        margin: auto;
-        text-align: center;
+    .social-container{
+        display: inline-block;
     }
 
-    .social-image img {
-        width: 70%;
+    .social-container img{
+        width: 3em;
     }
 }
