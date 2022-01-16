@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouroboros Jets</title>
+    <link href="download.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../../images/logo.png">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <a href="../../index.html">
+            <img src="../../images/logo.png" alt="logo-icon" class="logo">
+        </a>
+        <nav>
+            <ul id="menuList">
+                <li><a href="../../pages/download/download.html">Download</a></li>
+                <li><a href="../../pages/support/support.html">Support</a></li>
+                <li><a href="../../pages/donate/donate.html">Donate</a></li>
+            </ul>
+        </nav>
+        <img src="../../images/menu.png" alt="menu-icon" class="menu-icon" onclick="togglemenu()">
+    </div>
+
+    <div class="row">
+        <div class="col-1">
+            <h1>Ouroboros</h1>
+            <p>A passionate group with members from all over the world dedicated to producing high-fidelity, accessible, and performant addons for Microsoft Flight Simulator. </p>
+            <div class="buttons">
+                <a href="#lineup">LineUp</a>
+                <a href="#faq">FAQ</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="social-links">
+        <a href="https://www.youtube.com/c/OuroborosJets" class="external">Youtube</a>
+        <a href="https://twitter.com/OuroborosJets" class="external">Twitter</a>
+        <a href="https://discord.gg/GhkQ9wrrbp" class="external">Discord</a>
+        <a href="https://github.com/Ouroboros-Jets" class="external">Github</a>
+    </div>
+
+    <div class="footer">
+        <p>Ouroboros Jets</p>
+        <br>
+        <p>Made by LincolnCFCruz, Wheezal</p>
+    </div>
+</div>
+
+<script>
+    const menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+
+    function  togglemenu(){
+        if(menuList.style.maxHeight === "0px"){
+            menuList.style.maxHeight = "500px"
+        } else {
+            menuList.style.maxHeight = "0px"
+        }
+    }
+</script>
+</html>
