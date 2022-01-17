@@ -1,3 +1,3 @@
-# Ouroboros-Website
+# Ouroboros Jets Website
 
-##Website made by LincolnCFCruz and Vitor_MD11
+## Website made by LincolnCFCruz and Vitor_MD11
